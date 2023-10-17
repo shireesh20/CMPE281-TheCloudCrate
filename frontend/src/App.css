@@ -1,0 +1,63 @@
+/* Styles for the App */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* Styles for the Container */
+.container {
+  display: flex;
+  font-family: sans-serif; 
+  flex-direction: column;
+}
+
+.container > p {
+  font-size: 1rem;
+}
+
+.container > em {
+  font-size: .8rem;
+}
+
+/* Styles for the Dropzone */
+.dropzone {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  padding: 20px;
+  border-width: 2px;
+  border-radius: 2px;
+  border-color: #eeeeee;
+  background-color: #fafafa;
+  border-style: dashed;
+  color: #bdbdbd;
+  outline: none;
+  transition: border .24s ease-in-out;
+}
+
+.dropzone:focus {
+  border-color: #2196f3;
+}
+
+.dropzone.disabled {
+  opacity: 0.6;
+}
