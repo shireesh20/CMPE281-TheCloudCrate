@@ -14,7 +14,7 @@ Technologies Used:
 Application URL: https://thecloudcrate.online
 
 AWS Services Used:
-  • EC2: 2 base EC2 Ubuntu instances are used. 1 for running frontend and another for running backend server.
+  • EC2: 2 base EC2 Ubuntu instances are used. 1 for running frontend and another for running backend server.\n
   • ELB: Load balancers are used to distribute the load coming on to the servers. It makes sure that the load is evenly distributed and thus the response is rendered as soon as possible. I have used 2 load balancers, 1 
     for frontend server and 1 for backend servers.
   • Autoscaling Group: Auto-scaling groups are used to increase the number of ec2 instances whenever there is heavy load. Load balancers combined with auto-scaling groups provides a highly scalable and available solution. 
